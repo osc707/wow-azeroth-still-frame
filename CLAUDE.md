@@ -10,7 +10,7 @@ Azeroth Stillframe is a World of Warcraft add-on (targeting the "WoW: Forever" c
 
 There is no build system, linter config, or test suite. The add-on is plain Lua 5.1 loaded directly by the game client. To install, copy the repo contents into `World of Warcraft/_forever_/Interface/AddOns/AzerothStillframe/` (the folder name must match the `.toc` name, and the old `AzerothDarkroom` folder must be removed).
 
-No Lua tooling is installed locally. If you add a syntax check, `luac -p *.lua` (Lua 5.1) is the right shape. v0.4.1 has been verified in game by the author, but there are no automated tests, so after a change testing comes down to the "First test" checklist in README.md: each guide renders, cycling and orientation work, screenshots contain no guide lines, nameplates are restored, and the UI comes back after exiting. The import of old Darkroom settings has not been confirmed in game.
+No Lua tooling is installed locally. If you add a syntax check, `luac -p *.lua` (Lua 5.1) is the right shape. v0.4.2 has been verified in game by the author, but there are no automated tests, so after a change testing comes down to the "First test" checklist in README.md: each guide renders, cycling and orientation work, screenshots contain no guide lines, nameplates are restored, and the UI comes back after exiting. The import of old Darkroom settings has not been confirmed in game.
 
 `docs/images/` holds example screenshots for the README. WoW never loads it, so leave it out of the add-on zip.
 

@@ -63,7 +63,7 @@ Photo mode and screenshots are unavailable during combat. If combat starts while
 - No shader or black-and-white post-processing is included.
 
 ## First test
-Verify that each guide renders, cycling and orientation work, screenshots have no guide lines, nameplates restore, and the normal UI returns after leaving photo mode. v0.4.1 has been verified in the Forever game client.
+Verify that each guide renders, cycling and orientation work, screenshots have no guide lines, nameplates restore, and the normal UI returns after leaving photo mode. v0.4.2 has been verified in the Forever game client.
 
 ## v0.4.2 maintenance release
 - Fixes guides staying on screen after pressing Esc (or Alt+Z) in photo mode. Bringing the UI back by any means now exits photo mode fully: guides are hidden and character names are restored.
