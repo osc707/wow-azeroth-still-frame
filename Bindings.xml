@@ -1,0 +1,6 @@
+<Bindings>
+  <Binding name="AZEROTHSTILLFRAME_TOGGLE" header="AZEROTHSTILLFRAME">AzerothStillframe_Toggle()</Binding>
+  <Binding name="AZEROTHSTILLFRAME_CAPTURE" header="AZEROTHSTILLFRAME">AzerothStillframe_Capture()</Binding>
+  <Binding name="AZEROTHSTILLFRAME_CYCLE" header="AZEROTHSTILLFRAME">AzerothStillframe_Cycle()</Binding>
+  <Binding name="AZEROTHSTILLFRAME_ORIENT" header="AZEROTHSTILLFRAME">AzerothStillframe_Orient()</Binding>
+</Bindings>
