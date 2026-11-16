@@ -52,6 +52,17 @@ Under **Keybindings > Azeroth Stillframe**:
 ## Combat
 Photo mode and screenshots are unavailable during combat. If combat starts while photo mode is on, it exits automatically and the UI is restored.
 
+## Tip: washed-out screenshots with HDR
+If you play with HDR on and your screenshots look faded or overexposed, try turning HDR off in the game's graphics settings while you take photos. You can also use a macro that turns HDR off, takes the shot, and turns it back on:
+
+```
+/console HDROutput 0
+/run C_Timer.After(1, function() Screenshot() end)
+/run C_Timer.After(2, function() SetCVar("HDROutput", 1) end)
+```
+
+The screen may flicker while the display switches modes, which is why the macro waits a second before taking the screenshot. Guides aren't hidden automatically with this macro, so select `/as overlay off` first. If the `HDROutput` setting doesn't exist in your client, the macro does nothing.
+
 ## Design notes
 - Guides live on WorldFrame, not UIParent, so they remain visible while the HUD is hidden.
 - Guide geometry recalculates when display size changes, including ultrawide aspect ratios.
